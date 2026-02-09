@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebula | El espacio donde tu web fluye</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Nebula</div>
+            <div class="nav-links">
+                <a href="#features">Características</a>
+                <a href="#updates">Actualizaciones</a>
+                <a href="https://github.com/Dancenot0/nebula-preview.git" target="_blank" class="github-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    <span id="github-stars">...</span>
+                </a>
+                <a href="#" class="btn-sm">Descargar</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="fade-in">Nebula: El espacio donde tu web fluye.</h1>
+                <p class="subtitle fade-in">Un navegador ligero, privado y diseñado para la era moderna.</p>
+                <div class="cta-group fade-in">
+                    <a href="#" class="btn-primary">Descargar Nebula para Windows</a>
+                    <p class="version-info">Versión 1.0.0 | Gratis y Open Source</p>
+                </div>
+                <div class="hero-visual fade-in">
+                    <div class="browser-mockup">
+                        <div class="mockup-header">
+                            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                        </div>
+                        <div class="mockup-content">
+                            <img src="assets/nebula-preview.png" alt="Nebula Browser Preview" class="preview-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-card glass">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m13 2-2 10h3L11 22h2"></path></svg>
+                        </div>
+                        <h3>Velocidad Estelar</h3>
+                        <p>Motor optimizado para carga instantánea y rendimiento fluido.</p>
+                    </div>
+                    <div class="feature-card glass">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        </div>
+                        <h3>Privacidad Total</h3>
+                        <p>Bloqueo de rastreadores nativo para una navegación sin huellas.</p>
+                    </div>
+                    <div class="feature-card glass">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4"></path><path d="M12 16h.01"></path></svg>
+                        </div>
+                        <h3>Interfaz Zen</h3>
+                        <p>Sin distracciones, solo tú y el contenido que importa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="updates" class="updates">
+            <div class="container">
+                <div class="update-card glass">
+                    <h2>Siempre al día</h2>
+                    <p>Nebula se actualiza automáticamente en segundo plano para que nunca tengas que interrumpir tu navegación.</p>
+                    <div id="changelog-container" class="changelog-box">
+                        <div class="version-badge">Cargando versión...</div>
+                        <ul id="changelog-list">
+                            <!-- JS will populate this -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback">
+            <div class="container">
+                <div class="glass feedback-card">
+                    <h3>¿Encontraste un bug?</h3>
+                    <p>Ayúdanos a mejorar Nebula reportando cualquier error o sugiriendo nuevas funciones.</p>
+                    <a href="https://github.com/Dancenot0/nebula-preview.git" target="_blank" class="btn-outline">Reportar en GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Nebula Browser. Hecho para el futuro.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

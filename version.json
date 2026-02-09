@@ -1,0 +1,12 @@
+{
+    "version": "1.0.0",
+    "releaseDate": "2026-02-08",
+    "changelog": [
+        "Lanzamiento inicial de Nebula Browser",
+        "Motor de renderizado optimizado para 2026",
+        "Sistema de privacidad nativo activado",
+        "Interfaz Zen minimalista"
+    ],
+    "downloadUrl": "https://github.com/tu-usuario/nebula/releases/latest",
+    "criticalUpdate": false
+}
